@@ -1,3 +1,15 @@
-.btn-info{
+.btn_pauli{
   margin-bottom: 30px;
+  color: white;
+}
+.btn_pauli:hover{
+  background-color: white;
+  color: yellow;
+}
+.btn_pauli:active{
+  background-color: white;
+  color: white;
+}
+.btn-warning:not(:disabled):not(.disabled).active, .btn-warning:not(:disabled):not(.disabled):active, .show>.btn-warning.dropdown-toggle{
+    color: white;
 }
